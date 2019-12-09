@@ -1,0 +1,64 @@
+body
+{
+    margin:0px;
+    padding:0px;
+    background-image: url("Image/b89176e8dc906806a551c86b89fe6281.jpg");
+    font-family:"Comic Sans MS", cursive, sans-serif,"Courier New", Courier, monospace;
+}
+div
+{
+    background-color: #000;
+    color:white;
+    font-style: italic;
+    font-size:15px;
+    padding:10px 0;
+}
+.ss
+{
+    text-align:center;
+}
+fieldset
+{
+    background:#FFF;
+    border:1px solid #CCC;
+    margin-bottom:20px;
+    padding:20px;
+    width:500px;
+    margin:20px auto;
+}
+legend
+{
+    background:#FFF;
+    border:1px solid #CCC;
+    padding:10px;
+}
+label
+{
+    margin-bottom:10px;
+    display:block;
+}
+input
+{
+    margin-bottom:10px;
+}
+input[type="text"],input[type="reset"],input[type="submit"],input[type="password"],textarea
+{
+    padding:8px;
+    width:300px;
+    display:block;
+}
+textarea
+{
+    height:100px;
+    margin-bottom:10px;
+}
+a
+{
+    color: white;
+    font-size: 23px;
+}
+a:hover
+{
+    color: red;
+    font-style: italic;
+}
