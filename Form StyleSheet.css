@@ -24,7 +24,7 @@ fieldset
     margin-bottom:20px;
     padding:20px;
     width:500px;
-    margin:20px auto;
+    margin:20px;
 }
 legend
 {
@@ -41,16 +41,11 @@ input
 {
     margin-bottom:10px;
 }
-input[type="text"],input[type="reset"],input[type="submit"],input[type="password"],textarea
+input[type="text"],input[type="reset"],input[type="submit"],input[type="password"]
 {
     padding:8px;
     width:300px;
     display:block;
-}
-textarea
-{
-    height:100px;
-    margin-bottom:10px;
 }
 a
 {
@@ -61,4 +56,17 @@ a:hover
 {
     color: red;
     font-style: italic;
+}
+.z
+{
+    margin-top: 100px;
+}
+select
+{
+    padding:8px;
+    border:2px solid #CCC;
+}
+.bn
+{
+    display: inline;
 }
