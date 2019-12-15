@@ -1,42 +1,146 @@
 <!DOCTYPE html>
     <html>
         <head>
-            <meta charset="utf-8" name="Student Form" content="Welcom to Student Form">
-            <title>Student Form</title>
+            <meta charset="utf-8" >
+            <title>Login System</title>
+			
             <link rel="stylesheet" href="Form StyleSheet.css" type="text/css">
-            <script src = "Student Form Java Script.js"></script>
+			
+			
+<script src="Form Java Script.js"></script>
+            
         </head>
-        <body>
-            <div class="ss">
-                <h1>Student Form</h1>
-            </div>
-            <form name="Login" action="" method="">
-                <fieldset>
-                    <legend>Student Form</legend>
-                    <label>User Name : </label>
-                    <input type="text" name="username" placeholder="Type your user name" value="" maxlength="">
-                    <br><br>
-                    <label>Password : </label>
-                    <input type="password" name="password" placeholder="Type your password">
-                    <br><br>
-                    <label>Gender : </label>
-                    <select name="Gender">
-                        <option>.....</option>
-                        <option value="Female">Female</option>
-                        <option value="Male">Male</option>
-                        <option value="Custom">Custom</option>
-                    </select>
-                    <br><br>
-                    <input type="checkbox">Remember me
-                    <input type="reset" value="reset">
-                    <br><br>
-                    <input type="submit" value="Sign in">
-                </fieldset>
-            </form>
-            <footer>
-                <div class="z">
-                    <a href="https://github.com/MohamedKarem66">Connect Us</a>
-                </div>
-            </footer>
+		
+        <body >
+		
+		<!--navegation Bar-->
+	
+		<div class="logo">
+			&copy;<img src="Image/logo.png" style="width:150px; border-radius: 4px;" >
+			
+			<label class="text"><b>S</b>ystem</label>
+			<label class="text2">Exam</label>
+        </div>
+		
+					
+		<!-- end of navegation Bar-->
+		
+		<!--section-->
+		
+		<div class="box">
+		
+		<div class="iconbox">
+		</div>
+		
+		</div>
+		
+		
+		<hr class="box2">
+		
+		
+		
+		<p class="text3">
+		EXAM&nbsp;&nbsp;&nbsp;LOG&ndash;IN
+		</p>
+		
+		
+		<hr class="box3">
+		
+		
+		
+		
+		<legend>Information</legend>
+		
+		
+		<div class="form" >
+		
+		
+		<p class="text4">
+		LOGIN&nbsp;&nbsp;&ndash;<b>STUDENT</b>
+		</p>
+		
+		<hr class="box4">
+		
+		
+		
+		<form method="" action="">
+		
+		<p>
+		<label  class="login">User Name : 
+        <input type="text" name="username" placeholder="abcd" value="" maxlength="" required >
+		</label>
+		</p>
+		
+		<P>
+		<label class="login">Password :
+        <input type="password" name="password" placeholder="**********" required>
+		 </label>
+		 </P>
+		 
+		 
+		 <img src="Image/abcd.png" class="img2">
+		 
+		 
+		 <P>
+		<label>
+        <input type="textbox"  name="check" pattern="\abcd" required  >
+		</label>
+		 </P>
+		 
+		 
+		 
+		 <P>
+        <input type="submit" value="LogIn">
+		<input type="reset" value="Delet">
+		 </P>
+		 
+		 </form>
+		 
+		
+		 </div>
+		 
+		 
+		 
+	 <h3 class="text5">
+		 
+Choose your Portal
+</h3>
+
+		 
+		
+		 
+		 <hr class="box5">
+  
+  <p class="p">Dear Students, Welcome To <b>S</b>ystem <b style="font-style: italic; font-weight: bold;">Exam</b> Enjoy !
+  </p>
+		
+	
+		 
+		 
+		 <div class="chose" >
+		 <select  onchange="javascript:go(this.value)"  class="select">
+                     
+					  
+                     <option value="Instructor Form.html">Instructor</option>
+                     <option value="Student Form.html" selected>Student</option>
+          </select>
+		 </div>
+		 
+		  <h3 class="text6">
+		 Student Portal
+		 </h3>
+		 <hr class="box6 ">
+		 
+		<!-- end of section-->
+		
+		<!--footer-->
+		
+		
+		
+		<!-- end of footer-->
+		
+		
+		
+            
         </body>
     </html>
