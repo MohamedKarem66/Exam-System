@@ -172,6 +172,498 @@ legend
 }
 body
 {
-  background-image: url("Image/modern-education-concept-with-flat-design_23-2147919753.jpg");
+  background-image: rl("Image/modern-education-concept-with-flat-design_23-2147919753.jpg");
   font-family:"Comic Sans MS", cursive, sans-serif,"Courier New", Courier, monospace;
 }
+
+
+
+/* contacts.html */
+
+
+
+
+
+input[type=text]#contacts ,select {
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 20px;
+  resize: vertical;
+}
+
+ textarea
+ {
+	  width: 80%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 20px;
+   margin-left: 110px;
+  resize: vertical;
+	 
+ }
+
+#r {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]#r:hover {
+  background-color: #45a049;
+}
+
+.container {
+	font-family: Arial, Helvetica, sans-serif;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+
+/*end  contacts.html */
+.logocard{
+	padding: 10px;
+  
+  margin-left:100px;
+ width:50px; 
+ border-radius: 4px;
+  background-color:white; 
+}
+
+
+
+/*end  studentprofile.html */
+
+body.student{
+	background-image: url("background.png");
+}
+
+
+/*  contacts circle position */
+.divcon
+{
+	opacity:100;
+	margin-top:200px;
+	margin-left:200px;
+}
+/*   end contacts circle position */
+
+
+/*  contacts circle size   */
+.contacircle
+{
+	
+	border:1px double ; width:100px; height:100px;   border-color:black; border-radius:100%;
+	background-color:black;
+	
+padding:10px;
+	
+	
+}
+
+.contacircle:hover
+{
+	margin-top:auto;
+	margin-left:auto;
+	 width:200px; height:200px;   border-color:white; border-radius:50%;
+	background-color:white;
+	
+padding:20px;
+opacity:100;
+	
+}
+/*  end  contacts circle size  */
+
+
+/*  contacts word posiition*/
+.acon{
+	margin-top:20px;
+	margin-left:10px;
+	
+}
+
+.acon:hover
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:50px;
+	color: #ADFF2F;
+	
+	
+}
+/*   end contacts word posiition*/
+
+
+/*   contacts box size */
+
+
+.divcon:hover {
+	
+	background-color: #ADFF2F;
+  box-shadow: 0 5px 35px 0px rgba(0,0,0,.1);
+  transform: scale(1.0);
+  padding: 5px;
+ 
+  transition: transform .10s;
+  
+  
+  width: 250px;
+  height: 250px;
+
+  border-radius: 75px;
+  
+ 
+ 
+}
+
+/*  end  contacts box size */
+
+
+
+
+
+
+
+/* exam circle position */
+
+.divexam
+{
+	opacity:100;
+	margin-top:10px;
+	margin-left:700px;
+}
+
+
+
+/* end exam circle position */
+
+
+
+/*    exam  circle */
+  
+.ex
+{
+		
+	border:1px double ; width:100px; height:100px;   border-color:black; border-radius:100%;
+	background-color:black;
+	
+padding:10px;
+	
+	
+	
+}
+.ex:hover
+{
+	
+	 width:200px; height:200px;   border-color:white; border-radius:50%;
+	background-color:white;
+	
+padding:20px;
+opacity:100;
+
+	
+}
+
+/*   end  exam  circle */
+
+/*  exam word posiition*/
+.exam{
+	margin-top:20px;
+	margin-left:10px;
+	
+}
+
+.exam:hover
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:50px;
+	color:#ADFF2F;
+	
+	
+}
+/*   end exam word posiition*/
+
+/*   exam box size */
+
+
+.divexam:hover {
+	
+	background-color: #ADFF2F;
+  box-shadow: 0 5px 35px 0px rgba(0,0,0,.1);
+  transform: scale(1.0);
+  padding: 5px;
+ 
+  transition: transform .10s;
+  
+  
+  width: 250px;
+  height: 250px;
+
+  border-radius: 75px;
+}
+ 
+/*  end  exam  box size */
+
+
+
+
+/* id card circle position */
+
+
+.divid
+{
+	
+	margin-top:-450px;
+	margin-left:50px;
+}
+
+
+/*  end id card circle position */
+
+/*   card id  circle */
+  
+.id
+{
+		
+	border:1px double ; width:100px; height:100px;   border-color:black; border-radius:100%;
+	background-color:black;
+	
+padding:10px;
+	
+	
+	
+}
+.id:hover
+{
+	
+	 width:200px; height:200px;   border-color:white; border-radius:50%;
+	background-color:white;
+	
+padding:20px;
+opacity:100;
+
+	
+}
+
+/*  end  card id  circle */
+
+
+/*  id card word posiition*/
+.idcard {
+	margin-top:20px;
+	margin-left:10px;
+	
+}
+
+.idcard:hover
+{
+	
+
+	font-family: Arial, Helvetica, sans-serif;
+	
+	font-size:50px;
+	color:#ADFF2F;
+	
+}
+/*   end id card word posiition*/
+
+
+
+
+/*   id card box size */
+
+
+.divid:hover {
+	
+	background-color:  #ADFF2F;
+  box-shadow: 0 5px 35px 0px rgba(0,0,0,.1);
+  transform: scale(1.0);
+  padding: 5px;
+ 
+  transition: transform .10s;
+  
+  
+  width: 250px;
+  height: 250px;
+
+  border-radius: 75px;
+}
+ 
+/*  end  id card  box size */
+
+
+
+
+
+
+
+
+/*calc circle position */
+
+.divcalcolator
+{
+	opacity:100;
+	margin-top:-100px;
+	margin-left:1000px;
+}
+
+
+
+/* end calc circle position */
+
+
+
+/*   calc  circle */
+  
+.calc
+{
+		
+	border:1px double ; width:100px; height:100px;   border-color:black; border-radius:100%;
+	background-color:black;
+	
+padding:10px;
+	
+	
+	
+}
+.calc:hover
+{
+	
+	 width:200px; height:200px;   border-color:white; border-radius:50%;
+	background-color:white;
+	
+padding:20px;
+opacity:100;
+
+	
+}
+
+/*   end  calc  circle */
+
+/*  calc word posiition*/
+.wocal{
+	margin-top:20px;
+	margin-left:10px;
+	
+}
+
+.wocal:hover
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:40px;
+	color:#ADFF2F;
+	
+	
+}
+/*   end calc word posiition*/
+
+/*calc box size */
+
+
+.divcalcolator:hover {
+	
+	background-color:  #ADFF2F;
+  box-shadow: 0 5px 35px 0px rgba(0,0,0,.1);
+  transform: scale(1.0);
+  padding: 5px;
+ 
+  transition: transform .10s;
+  
+  
+  width: 250px;
+  height: 250px;
+
+  border-radius: 75px;
+}
+ 
+/*  end  calc  box size */
+
+
+
+
+/*logout circle position */
+
+.logout
+{
+	opacity:100;
+	margin-top:100px;
+	margin-left:500px;
+}
+
+
+
+/* end logout circle position */
+
+
+
+/*   logout   circle */
+  
+.logcc
+{
+		
+	border:1px double ; width:100px; height:100px;   border-color:black; border-radius:100%;
+	background-color:black;
+	
+padding:10px;
+	
+	
+	
+}
+.logcc:hover
+{
+	
+	 width:200px; height:200px;   border-color:white; border-radius:50%;
+	background-color:white;
+	
+padding:20px;
+opacity:100;
+
+	
+}
+
+/*   end  logout  circle */
+
+/*  logout word posiition*/
+.wolog{
+	margin-top:20px;
+	margin-left:10px;
+	
+}
+
+.wolog:hover
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:50px;
+	color:#FF0000;
+	
+	
+}
+/*   end logout  word posiition*/
+
+/*logout box size */
+
+
+.logout:hover {
+	
+	background-color: #FF0000;
+  box-shadow: 0 5px 35px 0px rgba(0,0,0,.1);
+  transform: scale(1.0);
+  padding: 5px;
+ 
+  transition: transform .10s;
+  
+  
+  width: 250px;
+  height: 250px;
+
+  border-radius: 75px;
+}
+ 
+/*  end  logout  box size */
