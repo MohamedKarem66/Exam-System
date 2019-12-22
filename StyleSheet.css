@@ -235,6 +235,14 @@ body.student
 /*  contacts circle position */
 .divcon
 {
+ background-color: #ADFF2F;
+  box-shadow: 0 5px 35px 0px rgba(0,0,0,.1);
+  transform: scale(1.0);
+  padding: 5px;
+  transition: transform .10s;
+  width: 250px;
+  height: 250px;
+  border-radius: 75px;
 	opacity:100;
 	margin-top:200px;
 	margin-left:200px;
@@ -254,17 +262,15 @@ body.student
 	margin-left:auto;
 	 width:200px; height:200px;   border-color:white; border-radius:50%;
 	background-color:white;
-	
 padding:20px;
 opacity:100;
-	
 }
 /*  end  contacts circle size  */
 /*  contacts word posiition*/
 .acon
 {
 	margin-top:20px;
-	margin-left:10px;	
+	margin-left:10px;
 }
 .acon:hover
 {
@@ -273,21 +279,17 @@ opacity:100;
 	color: #ADFF2F;
 }
 /*   end contacts word posiition*/
-/*   contacts box size */
-.divcon:hover {
-	background-color: #ADFF2F;
+/* exam circle position */
+.divexam
+{
+ background-color: #ADFF2F;
   box-shadow: 0 5px 35px 0px rgba(0,0,0,.1);
   transform: scale(1.0);
-  padding: 5px;
+  padding: 5px; 
   transition: transform .10s;
   width: 250px;
   height: 250px;
   border-radius: 75px;
-}
-/*  end  contacts box size */
-/* exam circle position */
-.divexam
-{
 	opacity:100;
 	margin-top:10px;
 	margin-left:700px;
@@ -320,10 +322,10 @@ opacity:100;
 	color:#ADFF2F;
 }
 /*   end exam word posiition*/
-/*   exam box size */
-.divexam:hover
+/* id card circle position */
+.divid
 {
-	background-color: #ADFF2F;
+ background-color:  #ADFF2F;
   box-shadow: 0 5px 35px 0px rgba(0,0,0,.1);
   transform: scale(1.0);
   padding: 5px; 
@@ -331,11 +333,6 @@ opacity:100;
   width: 250px;
   height: 250px;
   border-radius: 75px;
-}
-/*  end  exam  box size */
-/* id card circle position */
-.divid
-{
 	margin-top:-450px;
 	margin-left:50px;
 }
@@ -368,10 +365,10 @@ opacity:100;
 	color:#ADFF2F;
 }
 /*   end id card word posiition*/
-/*   id card box size */
-.divid:hover
+/*calc circle position */
+.divcalcolator
 {
-	background-color:  #ADFF2F;
+ background-color:  #ADFF2F;
   box-shadow: 0 5px 35px 0px rgba(0,0,0,.1);
   transform: scale(1.0);
   padding: 5px; 
@@ -379,11 +376,6 @@ opacity:100;
   width: 250px;
   height: 250px;
   border-radius: 75px;
-}
-/*  end  id card  box size */
-/*calc circle position */
-.divcalcolator
-{
 	opacity:100;
 	margin-top:-100px;
 	margin-left:1000px;
@@ -416,25 +408,20 @@ opacity:100;
 	color:#ADFF2F;
 }
 /*   end calc word posiition*/
-/*calc box size */
-.divcalcolator:hover
-{
-	background-color:  #ADFF2F;
-  box-shadow: 0 5px 35px 0px rgba(0,0,0,.1);
-  transform: scale(1.0);
-  padding: 5px; 
-  transition: transform .10s;
-  width: 250px;
-  height: 250px;
-  border-radius: 75px;
-}
-/*  end  calc  box size */
 /*logout circle position */
 .logout
 {
 	opacity:100;
 	margin-top:100px;
 	margin-left:500px;
+ background-color: #FF0000;
+  box-shadow: 0 5px 35px 0px rgba(0,0,0,.1);
+  transform: scale(1.0);
+  padding: 5px;
+  transition: transform .10s;
+  width: 250px;
+  height: 250px;
+  border-radius: 75px;
 }
 /* end logout circle position */
 /*   logout   circle */
@@ -465,19 +452,6 @@ opacity:100;
 	color:#FF0000;
 }
 /*   end logout  word posiition*/
-/*logout box size */
-.logout:hover
-{	
-	background-color: #FF0000;
-  box-shadow: 0 5px 35px 0px rgba(0,0,0,.1);
-  transform: scale(1.0);
-  padding: 5px;
-  transition: transform .10s;
-  width: 250px;
-  height: 250px;
-  border-radius: 75px;
-}
-/*  end  logout  box size */
 body.background
 {
  background-image: url("Image/library books.jpg");
@@ -517,4 +491,54 @@ h1.info
 {
 margin-left:400px;
 margin-top:0px;
+}
+.cef
+{
+	width:50px;
+	height:50px;
+	font-size:20px;
+	border-color:black;
+	border-radius:50px;
+}
+#textef
+{
+	width:auto;
+	height:50px;
+	font-size:30px;
+	border:1px solid black;
+	padding:5px;
+}
+#ffef
+{
+	border:1px solid black;
+	position:absolute;
+	background-color:black;
+	margin-left: 40%;
+	margin-top: 10%;
+}
+.fef
+{
+	background-color:orange;
+	font-size:20px;
+}
+.red:hover
+{
+	background-color:red;
+}
+.wef
+{
+	background-color:gray;
+	font-weight:bold;
+}
+.lef
+{
+	background-color:silver;
+}
+.blue:hover
+{
+	background-color:blue;
+}
+body
+{
+	background-image: url("background.png");
 }
