@@ -2,83 +2,81 @@
     <html>
         <head>
             <meta charset="utf-8" >
-            <title>System Exam Login</title>
-            <link rel="stylesheet" href="Form StyleSheet.css" type="text/css">
-            <script src="Form Java Script.js"></script>
+            <title>System Login</title>
+            <link rel="stylesheet" href="StyleSheet.css" type="text/css">
+            <script src="Java Script.js"></script>
         </head>		
-        <body >
-        <!--navegation Bar-->
-         <div class="logo">
-           &copy;<img src="Image/logo.png" style="width:150px; border-radius: 4px;" >
-           <label class="text"><b>S</b>ystem</label>
-           <label class="text2">Exam</label>
-         </div>		
-        <!-- end of navegation Bar-->
-        <!--section-->
-          <div class="box">	
-      		<div class="iconbox">
-      		</div>
-      		</div>
-      		<hr class="box2">
-      		<p class="text3">
-      		EXAM&nbsp;&nbsp;&nbsp;LOG&ndash;IN
-      		</p>		
-      		<hr class="box3">		
-      		<div class="form" >
-            <form method="" action="">
-              <fieldset>
-            <legend>Information</legend>
-            <p class="text4">
-              LOGIN
-            </p>
-            <hr class="box4">		
-              <p>
-                <label  class="login">User Name : 
-                   <input type="text" name="username" placeholder="Enter Your User Name" value="" maxlength="" required >
-                </label>
-              </p>	
-              <P>
-                <label class="login">Password : 
-                     <input type="password" name="password" placeholder="Enter Your password" required>
-                </label>
-              </P>
-              <img src="Image/abcd.png" class="img2">
-              <P>
-                  <label>
-                     <input type="textbox"  name="check" pattern="\abcd" required  >
-                  </label>
-              </P>
-              <P>
-                  <input type="submit" value="LogIn">
-                  <input type="reset" value="Delet">
-              </P>
-              </fieldset>
-            </form>
-          </div>
-          <h3 class="text5"> 
-             Choose your Portal
-          </h3>
-          <hr class="box5">
-          <p class="p">Dear Students, Welcome To <b>S</b>ystem <b style="font-style: italic; font-weight: bold;">Exam</b> Enjoy !
-          </p>	 
-        	<div class="chose" >
-            <select onchange = "javascript:go(this.value)" class="select">
-                    <option  disabled selected>- No preference -</option>		  
-                    <option value="Instructor Form.html">Instructor</option>
-                    <option value="Student Form.html">Student</option>
-          </select>
-          </div>
-         	  <h3 class="text6">
-                Choose Portal
-            </h3>
-          <hr class="box6 ">
-        <!-- end of section-->
-        <!--footer-->
-          <footer class = "vf">
-              <div>
-                <a href="https://github.com/MohamedKarem66">Connect Us</a>
-              </div>
-          </footer>
-        <!-- end of footer-->        
+        <body class = "background">
+            <!--navegation Bar-->
+                <div class="logo">
+                   &copy;<img src="Image/logo.png" style="width:150px; border-radius: 4px;" >
+                   <label class="text"><b>S</b>ystem</label>
+                   <label class="text2">Exam</label>
+                </div>		
+            <!-- end of navegation Bar-->
+            <!--section-->
+                <div class="box">	
+                    <div class="iconbox">
+               		</div>
+           		</div>
+           		<hr class="box2">
+           		<p class="text3">
+            		EXAM&nbsp;&nbsp;&nbsp;LOG&ndash;IN
+           		</p>		
+           		<hr class="box3">		
+                <form class="form" method="" action="">
+                    <fieldset>
+                        <legend>Information</legend>
+                        <p class="text4">
+                            LOGIN
+                        </p>
+                        <hr class="box4">		
+                        <p>
+                            <label  class="login">User Name : 
+                                <input type="text" name="username" placeholder="Enter Your User Name" value="" maxlength="" required >
+                            </label>
+                        </p>	
+                        <P>
+                            <label class="login">Password : 
+                                <input type="password" name="password" placeholder="Enter Your password" required>
+                            </label>
+                        </P>
+                        <img src="Image/abcd.png" class="img2">
+                        <P>
+                            <label>
+                                <input type="textbox"  name="check" pattern="\abcd" required  >
+                            </label>
+                        </P>
+                        <P>
+                            <input type="submit" value="LogIn">
+                            <input type="reset" value="Delet">
+                        </P>
+                    </fieldset>
+                </form>
+                <h3 class="text5"> 
+                    Choose your Portal
+                </h3>
+                <hr class="box5">
+                <p class="p">Dear Students, Welcome To <b>S</b>ystem <b style="font-style: italic; font-weight: bold;">Exam</b> Enjoy !
+                </p>	 
+                <div class="chose" >
+                    <select onchange = "javascript: go(this.value);" class="select">
+                        <option  disabled selected>- No preference -</option>		  
+                        <option value="Instructor Form.html">Instructor</option>
+                        <option value="Student Form.html">Student</option>
+                    </select>
+                </div>
+                <h3 class="text6">
+                    Choose Portal
+                </h3>
+                <hr class="box6 ">
+            <!-- end of section-->
+            <!--footer-->
+                <footer class = "vf">
+                    <div>
+                        <a href="https://github.com/MohamedKarem66/Exam-System">Connect Us</a>
+                    </div>
+                </footer>
+            <!-- end of footer-->        
         </body>
     </html>
