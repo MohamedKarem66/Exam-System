@@ -454,7 +454,8 @@ opacity:100;
 /*   end logout  word posiition*/
 body.background
 {
- background-image: url("Image/library books.jpg");
+ background-image: url("Image/abstract-colorful-flow-shapes-background_23-2148258092.jpg");
+ background-size: cover;
 }
 .wrapper
 {
@@ -492,6 +493,8 @@ h1.info
 margin-left:400px;
 margin-top:0px;
 }
+
+/*  calcolator css */
 .cef
 {
 	width:50px;
@@ -538,6 +541,7 @@ margin-top:0px;
 {
 	background-color:blue;
 }
+/* end */
 body
 {
 	background-image: url("background.png");
