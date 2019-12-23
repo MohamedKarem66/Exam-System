@@ -489,7 +489,11 @@ left: 50%;
 }
 .hrinid
 {
-	border: 1px solid #ADFF2F; height:5px; margin-left:0px;   background-color:#ADFF2F; width:auto;
+	border: 1px solid #ADFF2F;
+ height:5px;
+ margin-left:0px;
+ background-color:#ADFF2F;
+ width:auto;
 }
 h1.info
 {
@@ -630,3 +634,10 @@ h1.heeef
 	color:white;
 }
 /* end exam css */
+.ghp
+{
+ padding:10px,20px;
+ width:500px;
+	height:300px;
+ border:2px solid #ADFF2F;
+}
