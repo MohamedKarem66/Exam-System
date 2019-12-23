@@ -1,29 +1,71 @@
 <!DOCTYPE html>
-    <html lang="en-US">
-        <head>
-            <meta charest="utf-8">
-            <title> exam </title>
-            <link href="StyleSheet.css" rel="stylesheet">
-            <link rel="stylesheet" href="StyleSheet.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-            <script src="Java Script.js"></script>
-        </head>
-        <body class="examef">
-            <h1 class="heeef"> the best exam on the internet </h1>
-            <form id="exam" name="exam">
-                <p> what is the capital of england </p>
-                    <input class="inpef" type="text" id="textbox" name ="question1" autofocus="london">
-                <p> what is the capital of USA </p>
-                <input class="inpef" type="radio" id="mc"  name ="question2" value="New York"> New York <br>
-                <input class="inpef" type="radio" id="mc"  name ="question2" value="Washington"> Washington <br>
-                <p> what is the capital of Egypt </p>
-                <input class="inpef" type="radio" id="mc"  name ="question3" value="Cairo"> Cairo <br>
-                <input class="inpef" type="radio" id="mc"  name ="question3" value="Alex"> Alex <br>
-                <input class="inpef" id="button" type="button" value ="I am Finished !" onclick="check();">
-            </form>
-            <div id="after_submit">
-                <h4 id="message">
-                <h3 id="number_correct"></h3>
-                <img id="picture">
-            </div>
-        </body>
-    </html> 
+ <html lang="en-US">
+  <head>
+   <meta charest="utf-8">
+   <title> exam </title>
+   <link href="StyleSheet.css" rel="stylesheet">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+   <script src="Java Script.js"></script>
+  </head>
+  <body class="exc">
+   <!--navigation bar-->
+   <!--end navigation-->
+   <!--section-->
+    <hr>
+     <ol>
+      <form id="exam" name="exam">
+      <li>
+       <p> what is the capital of england ?</p>
+       <input type="text" id="textbox" name ="question1" autofocus="london">
+      </li>
+      </form>
+      <form id="exam" name="exam">
+      <li>
+       <p> what is the capital of USA ?</p>
+       <input type="radio" id="mc"  name ="question2" value="New York"> New York <br>
+       <input type="radio" id="mc"  name ="question2" value="Washington"> Washington <br>
+      </li>
+      </form>
+      <form id="exam" name="exam">
+      <li>
+       <p> what is the capital of Egypt ?</p>
+       <input type="radio" id="mc"  name ="question3" value="Cairo"> Cairo <br>
+       <input type="radio" id="mc"  name ="question3" value="Alex"> Alex <br>
+      </li>
+      </form>
+      <form id="exam" name="exam">
+      <li>
+       <p> what is the capital of France ? </p>
+       <input type="radio" id="mc" name="question4" value="Paris"> Paris <br>
+       <input type="radio" id="mc" name="question4" value="Monaco"> Monaco <br>
+      </li>
+      </form>
+      <form id="exam" name="exam">
+      <li>
+       <p> what is the capital of Spain ? </p>
+       <input type="radio" id="mc" name="question5" value="Barca"> Barca <br>
+       <input type="radio" id="mc" name="question5" value="Madrid"> Madrid <br>
+      </li>
+      </form>
+      <form id="exam" name="exam">
+      <li>
+       <p> what is the capital of German ?</p>
+       <input type="radio" id="mc" name="question6" value="Berlin">Berlin <br>
+       <input type="radio" id="mc" name="question6" value="Munchin"> Munchin <br>
+      </li>
+      </form>
+     </ol>
+     <form id="exam" name="exam">
+     <input id="button" type="button" value ="I am Finished !" onclick="check();">
+     <input type="text" id="timespent" value="0.00">
+     <button onclick="setTimeout(time,3000);"> ReStart Time</button>
+    </form>
+    <div id="after_submit">
+     <h4 id="message">
+     <h3 id="number_correct"></h3>
+     <img id="picture">
+     <h5 id="timespent"></h5>
+    </div>
+   <!--end section-->
+  </body>
+ </html> 
