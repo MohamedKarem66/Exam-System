@@ -4,6 +4,7 @@
             <meta charset="utf-8" >
             <title>Contact Form</title>
             <link rel="stylesheet" href="StyleSheet.css" type="text/css">
+			 <script src="Java Script.js"></script>
         </head>
         <body>
             <!--navegation Bar-->
@@ -12,25 +13,36 @@
             <!--section-->
                 <div class="container">
                     <form action="#" method="post">
-                         <p id="contacts">
-                              <label> Doctor:
-                                    <input id="contacts" type="text" name="username"   required  placeholder=" name.." >
+                         <p class="contacts">
+                              <label> First Name:
+                                    <input class="contacts" type="text" name="username"   required  placeholder=" name.." id="firstname" >
                               </label>
                          </p>
                          <p>
-                             <label> Student&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                  <input id="contacts" type="text" name="username"   required  placeholder=" name.." >
+                             <label >Last Name
+                                <input  class="contacts" type="text" name="username"   required placeholder="Your last name.." id="lastname" >
+                             </label>
+                         </p>
+                         <p>
+                             <label> Doctors&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  <select  id="Doctors" name="Doctors">
+                                       <option value="" selected>chosee</option>
+                                       <option value="Mohamed">Dr.Mohamed</option>
+                                       <option value="Ahmed">Dr.Ahmed</option>
+                                       <option value="heba">Dr.Heba</option>
+                                  </select>
                              </label>
                          </p>
                          your Maseege
                          <p>
                              <label> 
-                                 <textarea id="contacts" name="subject" placeholder="Write something.." style="height:200px">  </textarea>
+                                 <textarea class="contacts" name="subject" placeholder="Write something.." style="height:200px" id="mmm">  </textarea>
                              </label>
                          </p>
                          <p>
-                              <input id="r" type="submit" value="Submit">
+                              <input id="r" type="submit" value="Submit" onclick="javascript:maseg();">
                               <input  id="r" type="reset" value="Delet">
+							  <input  id="r" type="button" value="Back"    onclick="window.location='instructorprofilehtml.html';">
                          </p>
                     </form>
                 </div>

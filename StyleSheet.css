@@ -176,7 +176,7 @@ body
   font-family:"Comic Sans MS", cursive, sans-serif,"Courier New", Courier, monospace;
 }
 /* contacts.html */
-input[type=text]#contacts ,select
+input[type=text].contacts ,select
 {
   width: 80%;
   padding: 12px;
@@ -452,6 +452,9 @@ opacity:100;
 	color:#FF0000;
 }
 /*   end logout  word posiition*/
+
+
+/*  id.html  css */
 body.background
 {
  background-image: url("Image/abstract-colorful-flow-shapes-background_23-2148258092.jpg");
@@ -493,6 +496,8 @@ h1.info
 margin-left:400px;
 margin-top:0px;
 }
+/* end id  css */
+
 
 /*  calcolator css */
 .cef

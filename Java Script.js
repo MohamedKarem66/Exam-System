@@ -2,6 +2,7 @@ function go(src)
 {
 	 window.location =src;
 }
+
 function dis(val)
 {
 document.getElementById("textef").value+=val;
@@ -68,3 +69,54 @@ else if(id=="pp")
 document.getElementById("textef").value=Math.pow(y,2);
 }
 }
+
+
+function maseg()
+{
+	var a=document.getElementById("firstname").value;
+	var b=document.getElementById("lastname").value;
+	
+
+localStorage.setItem("firstname",a);
+localStorage.setItem("lastname",b);
+
+
+var p=document.getElementById("mmm").value;
+localStorage.setItem("mmm",p);
+
+var counter;
+if(a=="")
+{
+	counter=0;
+}
+else
+{
+	counter=counter+1;
+}
+	
+
+}
+
+function getmasge()
+{
+	document.getElementById("nb").innerHTML=localStorage.getItem("counter");
+	document.getElementById("jj").innerHTML=localStorage.getItem("firstname");
+	document.getElementById("lname").innerHTML=localStorage.getItem("lastname");
+	document.getElementById("mm").innerHTML=localStorage.getItem("mmm");
+}
+
+
+
+function s()
+{
+var x=document.getElementById("idsd").value;
+
+localStorage.setItem("idsd",x);
+
+}
+
+function get()
+{
+document.getElementById("idfff").innerHTML=localStorage.getItem("idsd");
+}
+
