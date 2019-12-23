@@ -69,7 +69,7 @@ else if(id=="pp")
 document.getElementById("textef").value=Math.pow(y,2);
 }
 }
-<<<<<<< HEAD
+
 
 
 function maseg()
@@ -121,7 +121,7 @@ function get()
 document.getElementById("idfff").innerHTML=localStorage.getItem("idsd");
 }
 
-=======
+
 function check()
 {
 	var question1=document.exam.question1.value;
@@ -160,4 +160,4 @@ if(correct>2)
 	document.getElementById("number_correct").innerHTML= "You got "+correct+" correct."; 
 	document.getElementById("picture").src=pictures[range];
 }
->>>>>>> f4e378db8951c7870ab9963e50cad5456955df05
+
