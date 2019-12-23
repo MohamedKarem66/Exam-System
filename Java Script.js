@@ -203,3 +203,4 @@ if(correct>5)
 	document.getElementById("picture").src=pictures[range];
 	document.getElementById("timespent").innerHTML="Your time is 20 seconds.";
 }
+/* end exam java */
