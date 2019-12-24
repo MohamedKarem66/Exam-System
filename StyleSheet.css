@@ -542,9 +542,9 @@ opacity:100;
 }
 /* end */
 /* exam css */
-body{
+body.exc{
 	font-family:'Lato',sens-serif;
-	background-image:URL("img/IT.png");
+	background-image:URL("Image/IT.png");
 }
 #timespent {
   position:absolute;
@@ -660,27 +660,3 @@ h1{
 }
 
 /*end  attendans css */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
