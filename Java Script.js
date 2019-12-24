@@ -183,7 +183,7 @@ function check()
 		correct++;
 	}
 var messages=["Excellent jop !","That is just good !","you really need to do better !"];
-var pictures=["img/win.gif","img/good.gif","img/fail.gif"];
+var pictures=["Image/win.gif","Image/good.gif","Image/fail.gif"];
 var range;
 if(correct<1)
 {

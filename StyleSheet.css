@@ -547,8 +547,7 @@ body.exc
 	font-family:'Lato',sens-serif;
 	background-image:URL("Image/IT.png");
 }
-#timespent
-{
+#timespent {
   position:absolute;
   right:0;
   text-align:right;
@@ -573,8 +572,8 @@ background-color:white;
 }
 #question{
 	margin-left:10px;
- background-color:green;
- color : yellow;
+  background-color:green;
+  color : yellow;
 padding:10px,20px,10px,20px;
 width:400px;
 border-radius:20px;
@@ -638,15 +637,14 @@ input{
 	color:yellow;
 	cursor:pointer;
 }
-#exam
-{
+#exam{
 	margin-left:10px;
-	background-color: #DDD;
-	color : black;
-	padding:10px,20px;
-	width:auto;
-	border-radius:20px;
-	margin-top: 20px;
+  background-color:gray;
+  color : black;
+padding:10px,20px,10px,20px;
+width:400px;
+border-radius:20px;
+float:left;
 }
 #picture{
 	width:375px;
@@ -660,16 +658,6 @@ h1{
 	color:green;
 	text-align:middle;
 	width:380px;
-}
-/* end exam css */
-
-/* attendans css and get some css from id.html */
-.ghp
-{
- padding:10px,20px;
- width:500px;
-	height:300px;
- border:2px solid #ADFF2F;
 }
 
 /*end  attendans css */
