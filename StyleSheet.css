@@ -653,20 +653,10 @@ float:left;
 	display:inline;
 }
 h1{
-	background-color:black;
+	background-color:white;
 	color:green;
 	text-align:middle;
 	width:380px;
-}
-/* end exam css */
-
-/* attendans css and get some css from id.html */
-.ghp
-{
- padding:10px,20px;
- width:500px;
-	height:300px;
- border:2px solid #ADFF2F;
 }
 
 /*end  attendans css */
