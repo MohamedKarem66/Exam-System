@@ -542,13 +542,11 @@ opacity:100;
 }
 /* end */
 /* exam css */
-body.exc
-{
+body{
 	font-family:'Lato',sens-serif;
-	background-image:URL("Image/IT.png");
+	background-image:URL("img/IT.png");
 }
-#timespent
-{
+#timespent {
   position:absolute;
   right:0;
   text-align:right;
@@ -573,8 +571,8 @@ background-color:white;
 }
 #question{
 	margin-left:10px;
- background-color:green;
- color : yellow;
+  background-color:green;
+  color : yellow;
 padding:10px,20px,10px,20px;
 width:400px;
 border-radius:20px;
@@ -638,15 +636,14 @@ input{
 	color:yellow;
 	cursor:pointer;
 }
-#exam
-{
+#exam{
 	margin-left:10px;
-	background-color: #DDD;
-	color : black;
-	padding:10px,20px;
-	width:auto;
-	border-radius:20px;
-	margin-top: 20px;
+  background-color:gray;
+  color : black;
+padding:10px,20px,10px,20px;
+width:400px;
+border-radius:20px;
+float:left;
 }
 #picture{
 	width:375px;
